@@ -1,6 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+
+# About Me
+
+I'm a master's student at Johns Hopkins with research interests in computer vision and machine learning with medical applications. I'm currently working with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/).
+
+# Projects
+
