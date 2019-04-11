@@ -19,6 +19,7 @@ I'm a master's student at Johns Hopkins with research interests in computer visi
     * [Project Report](assets/object-detection-artwork.pdf)
 * [RNN Stock Prediction](github.com/zdavidli/rnn-stock-prediction)
     * Can we beat the market by using an RNN trained on intraday stock data to predict stock market trends?
+    * [Project Report](assets/rnn-stock-prediction.pdf)
 
 # Teaching
 
