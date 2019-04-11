@@ -16,6 +16,7 @@ I'm a master's student at Johns Hopkins with research interests in computer visi
     * Track and detect synapses in live mice as they learn motor tasks. Brain scans are taken via two-photon microscopy.
 * [Neural Style Removal](github.com/zdavidli/neural-style-removal)
     * Can we improve object detection in abstract artwork by first applying neural style transfer to make artwork more realistic?
+    * [Project Report](assets/object-detection-artwork.pdf)
 * [RNN Stock Prediction](github.com/zdavidli/rnn-stock-prediction)
     * Can we beat the market by using an RNN trained on intraday stock data to predict stock market trends?
 
