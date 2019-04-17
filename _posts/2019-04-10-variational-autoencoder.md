@@ -67,5 +67,6 @@ is a low-dimensional vector, the VAE learns a meaningful compressed representati
 This is exactly what we want to do -- we want to learn a representation for tool motion or tool presence. Optimally we would like
 a small number of components of the latent space to encode this, i.e. we want to learn a **disentangled representation**.
 
+---
 
 [^1]: My master's research [source code](https://www.github.com/zdavidli/tool-presence). In the future, I plan make a post with a summary of my results.
