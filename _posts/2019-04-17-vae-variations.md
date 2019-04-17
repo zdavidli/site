@@ -1,20 +1,24 @@
 ---
 layout: post
-title: Using variations of VAEs
+title: Using variations of VAEs (Part 2)
 author: David
-categories: research
+categories: [research]
 tags: vae
+excerpt: In this research update, I discuss posterior collapse and disentangled representations in VAEs.
+
 ---
+
+See [Part 1](/research/2019/04/10/variational-autoencoder.html)
 
 # Drawbacks of traditional VAE
 A couple weeks ago, I went to a [computer vision workshop](https://ccvl.jhu.edu/news/2019/jhu-computer-vision-workshop/) and discussed
 my research with other students at JHU. There, I got the idea to try some other forms of VAEs to promote "disentangled representations."
 On a high level, this means learning a latent space where each latent dimension controls some different aspect of the resulting image.
 
-Furthermore, I learned that VAEs suffer from so-called "posterior collapse"[^1]. It seems that there's a lot written about this, 
+Furthermore, I learned that VAEs suffer from so-called "posterior collapse"[^1]. It seems that there's a lot written about this,
 but it seems I completely missed it when I was starting off this project.
 The idea behind this is that if the decoder is sufficiently powerful, then it doesn't matter what sort of latent representation we learn.
-Instead, the model encodes the information into the decoder's parameters. 
+Instead, the model encodes the information into the decoder's parameters.
 This is really bad for our application, since the whole point is to use the VAE to learn a useful latent factors.
 
 After the conference, I had a couple new directions -- I put my latent space manipulation experiments on hold.
@@ -26,7 +30,7 @@ enforce disentangled representations.
 ## Traditional VAE
 I started off with using a traditional VAE, where the encoder and decoder networks were 2-layer CNNs and I experimented with different
 latent dimensions `$z$` as my main hyperparameters. Results were alright, in the sense that reconstructions were good. In the following
-example, the top row is the original image and the bottom row is the reconstruction. 
+example, the top row is the original image and the bottom row is the reconstruction.
 
 ![Reconstructions](/assets/posts/vae-reconstruction.png)
 
@@ -49,11 +53,11 @@ over the space of `$q_\phi$`. The ELBO satisfies the equation
 
 `$\log p_\theta(x) = KL(q_\phi(z|x) || p(z|x)) + \mathcal{L}(p_\theta,q_\phi).$`
 
-We can also reformulate the ELBO as 
+We can also reformulate the ELBO as
 
 `$\log p(x) \geq \mathbb{E}_{q_\phi(z|x)} \left[ \log p_\theta(x|z) \right] - KL(q_\phi(z|x) || p(z))$`
 
-In the context of images, this has a nice intuitive explanation -- we are summing the KL-divergence and the 
+In the context of images, this has a nice intuitive explanation -- we are summing the KL-divergence and the
 pixel-wise reconstruction loss. We can think of the KL-divergence as acting as a regularizer on the reconstruction loss.
 
 The idea behind `$\beta$`-VAE is simple -- we're just increasing the regularization.

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Variational Autoencoders for Surgical Tool Detection
+title: Variational Autoencoders for Surgical Tool Detection (Part 1)
 author: David
-categories: research
+categories: [research]
 tags: vae
+excerpt: The first part of a series of posts on my research. I outline the motivations and the thought process behind my research decisions.
 ---
 
 # Introduction
@@ -17,13 +18,13 @@ to learn representations for tool motion.
 # Motivation
 
 I'm a part of the [Computational Interaction and Robotics Laboratory](https://cirl.lcsr.jhu.edu/), directed by Greg Hager.
-One of the research directions of CIRL is the so-called "Language of Surgery." 
+One of the research directions of CIRL is the so-called "Language of Surgery."
 
 > The Language of Surgery project is based on the premise that surgical activity, like most human activity, is structured. Data from the surgical field captures this structure. Research in the Language of Surgery project aims to discover structure in surgical activity and develop applications that rely upon this structure. Since 2006, the Language of Surgery project has focused upon methods to develop representations to describe surgical instrument motion and video image data that not only generalize across activities but also are invariant to factors such as surgeons’ skill or style, objective assessment of technical skill, and providing data-driven targeted feedback to support acquisition of technical skill. The Language of Surgery project includes multiple studies with different types of data, which provide a unique opportunity to apply state of the art machine learning techniques to tackle important clinical challenges.
 
 In surgical applications, data is mostly unlabeled since labels are tedious to generate and require the time of highly trained surgeons.
 This means that, unless we're working with simulations, we have to do some unsupervised learning to make sense of surgical video.
-In my project, I'm trying to focus just on the motion of surgical tools. 
+In my project, I'm trying to focus just on the motion of surgical tools.
 
 
 # How are you trying to do this?
@@ -55,7 +56,7 @@ you learned the distribution well.
 
 Right now, the two most common generative models are generative adversarial models (GANs) and VAEs. GANs work by taking in noise
 and using a generator neural network to make an adversarial example of the data. Then, the adversarial example is compared with a real
-example by a discriminator, which tries to tell the fake apart from the real example. 
+example by a discriminator, which tries to tell the fake apart from the real example.
 The result of this is that the generator learns to make examples that the discriminator will classify as real. In GANs,
 the distribution of latent samples `$z$` is a "useful" source of randomness from which the generator can sample and turn into
 good fakes.
@@ -68,7 +69,7 @@ This is exactly what we want to do -- we want to learn a representation for tool
 a small number of components of the latent space to encode this, i.e. we want to learn a **disentangled representation**.
 
 
-## [Part 2](/research/2019/04/17/vae-variations.html)
+See [Part 2!](/research/2019/04/17/vae-variations.html)
 
 ---
 
