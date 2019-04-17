@@ -68,4 +68,4 @@ This is exactly what we want to do -- we want to learn a representation for tool
 a small number of components of the latent space to encode this, i.e. we want to learn a **disentangled representation**.
 
 
-[^1] My master's research source code can be found at: <github.com/zdavidli/tool-presence>. In the future, I plan make a post with a summary of my results.
+[^1]: My master's research source code can be found at: <github.com/zdavidli/tool-presence>. In the future, I plan make a post with a summary of my results.
