@@ -43,7 +43,7 @@ The `$\beta$`-VAE paper can be found [here](https://openreview.net/pdf?id=Sy2fzU
 To talk about `$\beta$`-VAEs, it's important to review traditional VAE[^2]. VAEs are based on **variational inference**, where
 our objective is to maximize the the **evidence lower bound** (ELBO)
 
-`$\mathcal{L}(p_\theta,q_\phi) = \E_{q_\phi(z|x)} \left[ \log p_\theta(x,z) - \log q_\phi(z|x) \right]$`
+`$\mathcal{L}(p_\theta,q_\phi) = \mathbb{E}_{q_\phi(z|x)} \left[ \log p_\theta(x,z) - \log q_\phi(z|x) \right]$`
 
 over the space of `$q_\phi$`. The ELBO satisfies the equation
 
@@ -51,7 +51,7 @@ over the space of `$q_\phi$`. The ELBO satisfies the equation
 
 We can also reformulate the ELBO as 
 
-`$\log p(x) \geq \E_{q_\phi(z|x)} \left[ \log p_\theta(x|z) \right] - KL(q_\phi(z|x) || p(z))$`
+`$\log p(x) \geq \mathbb{E}_{q_\phi(z|x)} \left[ \log p_\theta(x|z) \right] - KL(q_\phi(z|x) || p(z))$`
 
 In the context of images, this has a nice intuitive explanation -- we are summing the KL-divergence and the 
 pixel-wise reconstruction loss. We can think of the KL-divergence as acting as a regularizer on the reconstruction loss.
@@ -59,15 +59,15 @@ pixel-wise reconstruction loss. We can think of the KL-divergence as acting as a
 The idea behind `$\beta$`-VAE is simple -- we're just increasing the regularization.
 We do this by multiplying the KL-divergence by a weight parameter `$\beta$`. Thus our objective function becomes
 
-`$\log p(x) \geq \E_{q_\phi(z|x)} \left[ \log p_\theta(x|z) \right] - \beta KL(q_\phi(z|x) || p(z))$`
+`$\log p(x) \geq \mathbb{E}_{q_\phi(z|x)} \left[ \log p_\theta(x|z) \right] - \beta KL(q_\phi(z|x) || p(z))$`
 
 When `$\beta=1$` we have a standard VAE. But, when `$\beta>1$` we encourage more disentangled representations.
-To understand why this is the case, I think it's best to let the original authors do the explaining: https://arxiv.org/pdf/1804.03599.pdf
+To understand why this is the case, I think it's best to let the original authors do the explaining: <https://arxiv.org/pdf/1804.03599.pdf>
 
 ## InfoVAE
 e.g. MMD-VAE
-https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/
+<https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/>
 
 
-[^1]: Slide 5 of http://www.people.fas.harvard.edu/~yoonkim/data/sa-vae-slides.pdf
-[^2]: Equations from https://ermongroup.github.io/cs228-notes/extras/vae/
+[^1]: Slide 5 of <http://www.people.fas.harvard.edu/~yoonkim/data/sa-vae-slides.pdf>
+[^2]: Equations from <https://ermongroup.github.io/cs228-notes/extras/vae/>
