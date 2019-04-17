@@ -68,6 +68,7 @@ To understand why this is the case, I think it's best to let the original author
 e.g. MMD-VAE
 <https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/>
 
+---
 
 [^1]: Slide 5 of <http://www.people.fas.harvard.edu/~yoonkim/data/sa-vae-slides.pdf>
 [^2]: Equations from <https://ermongroup.github.io/cs228-notes/extras/vae/>
