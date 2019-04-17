@@ -28,7 +28,8 @@ TODO
 I first learned of `$\beta$`-VAE through [Lilian Weng's blog post.](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)
 The paper can be found [here](https://openreview.net/pdf?id=Sy2fzU9gl)
 
-## MMD-VAE
+## InfoVAE
+e.g. MMD-VAE
 https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/
 
 
