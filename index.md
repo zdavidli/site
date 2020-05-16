@@ -4,12 +4,13 @@ layout: default
 
 # About Me
 
-I'm a master's student at Johns Hopkins with research interests in computer vision and machine learning with medical applications. I'm currently working with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/).
+I did my bachelor's and master's in Computer Science at Johns Hopkins. I have research interests in computer vision and machine learning with medical applications. I currently work in industry.
 
 # Projects
 
 * [Unsupervised Tool Detection in Endoscopic Video Frames](github.com/zdavidli/tool-presence)
     * Can we use a variational autoencoder to learn tool representation in surgical video and start to provide labels to medical data?
+    *  Worked with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/).
 * [Chirp](github.com/zdavidli/chirp)
     * A Twitter bot that reads tweets in the voice of the tweeter. Voice model is trained using one-shot learning.
 * [Longitudinal In-vivo Detection of Synapses](github.com/zdavidli/LIDS)
