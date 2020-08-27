@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-I did my bachelor's and master's in Computer Science at Johns Hopkins. I have research interests in computer vision and machine learning with medical applications. I currently work in industry.
+I did my bachelor's and master's in Computer Science at Johns Hopkins. I have research interests in computer vision, unsupervised learning, and applications of machine learning in healthcare. I currently work in industry.
 
 # Projects
 
@@ -31,3 +31,9 @@ I've helped teach a few classes while here at JHU and I've uploaded a collection
 
 
 # [Blog Posts](/blog.html)
+
+# Other interests
+* Badminton
+* Rock Climbing
+* Baking
+* Competitive gaming (Hearthstone, Teamfight Tactics)
