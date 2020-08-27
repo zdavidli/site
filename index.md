@@ -10,7 +10,8 @@ I did my bachelor's and master's in Computer Science at Johns Hopkins. I have re
 
 * [Unsupervised Tool Detection in Endoscopic Video Frames](github.com/zdavidli/tool-presence)
     * Can we use a variational autoencoder to learn tool representation in surgical video and start to provide labels to medical data?
-    *  Worked with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/).
+    * Worked with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/).
+    * To appear at [CLIP 2020](https://miccai-clip.org/) 
 * [Chirp](github.com/zdavidli/chirp)
     * A Twitter bot that reads tweets in the voice of the tweeter. Voice model is trained using one-shot learning.
 * [Longitudinal In-vivo Detection of Synapses](github.com/zdavidli/LIDS)
