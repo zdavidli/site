@@ -7,6 +7,8 @@ layout: default
 These notes will tend to be minimal as I use them as a reference for material to cover.
 The section numbers reference Vector Calculus, 6th edition by Marsden and Tromba.
 
+The practice problems are my own creation - I found them to be *extremely* useful practice when I was taking the class myself.
+
 
 | Week | Notes  |
 |------|----|
