@@ -4,36 +4,34 @@ layout: default
 
 # About Me
 
-I did my bachelor's and master's in Computer Science at Johns Hopkins. I have research interests in computer vision, unsupervised learning, and applications of machine learning in healthcare. I currently work in industry.
+I did my bachelor's and master's in Computer Science at Johns Hopkins. I have research interests in computer vision, unsupervised learning, and applications of machine learning. I currently work in industry as a machine learning engineer.
 
 # Projects
 
 * [Unsupervised Tool Detection in Endoscopic Video Frames](github.com/zdavidli/tool-presence)
     * Can we use a variational autoencoder to learn tool representation in surgical video and start to provide labels to medical data?
-    * Worked with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/).
-    * To appear at [CLIP 2020](https://miccai-clip.org/) 
+    * Master's Research Project at Johns Hopkins with [Ayushi Sinha](https://www.cs.jhu.edu/~ayushis/) and [Greg Hager](https://www.cs.jhu.edu/hager/).
+    * To appear at the [CLIP Workshop at MICCAI 2020](https://miccai-clip.org/).
+    * [Preprint](https://arxiv.org/abs/2008.12321)
 * [Chirp](github.com/zdavidli/chirp)
     * A Twitter bot that reads tweets in the voice of the tweeter. Voice model is trained using one-shot learning.
+    * 601.421 Object-Oriented Software Engineering semester-long project.
 * [Longitudinal In-vivo Detection of Synapses](github.com/zdavidli/LIDS)
     * Track and detect synapses in live mice as they learn motor tasks. Brain scans are taken via two-photon microscopy.
+    * Worked with [Joshua Vogelstein](https://jovo.me/)
 * [Neural Style Removal](github.com/zdavidli/neural-style-removal)
     * Can we improve object detection in abstract artwork by first applying neural style transfer to make artwork more realistic?
-    * [Project Report](assets/object-detection-artwork.pdf)
+    * 601.461 Computer Vision Final Project. [Report](assets/object-detection-artwork.pdf)
 * [RNN Stock Prediction](github.com/zdavidli/rnn-stock-prediction)
     * Can we beat the market by using an RNN trained on intraday stock data to predict stock market trends?
-    * [Project Report](assets/rnn-stock-prediction.pdf)
+    * 601.482 Deep Learning Final Project. [Report](assets/rnn-stock-prediction.pdf)
 
 # Teaching
 
 I've helped teach a few classes while here at JHU and I've uploaded a collection of notes I made for teaching
 
-* [Calculus III](calc3.html)
+* [110.202 Calculus III](calc3.html)
+* 550.171 Discrete Mathematics
+* 600.271 Automata & Computation Theory
 
 
-# [Blog Posts](/blog.html)
-
-# Other interests
-* Badminton
-* Rock Climbing
-* Baking
-* Competitive gaming (Hearthstone, Teamfight Tactics)
