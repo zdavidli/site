@@ -28,9 +28,9 @@ I did my bachelor's and master's in Computer Science at Johns Hopkins. I have re
 
 # Teaching
 
-I've helped teach a few classes while here at JHU and I've uploaded a collection of notes I made for teaching
+I helped teach a few classes while at JHU
 
-* [110.202 Calculus III](calc3.html)
+* 110.202 Calculus III - [Notes](calc3.html)
 * 550.171 Discrete Mathematics
 * 600.271 Automata & Computation Theory
 
