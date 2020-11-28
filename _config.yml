@@ -23,6 +23,8 @@ show_downloads: false
 google_analytics: UA-138255631-1
 twitter_username: "" 
 github_username: zdavidli
+linkedin_username: zdavidli
+google_scholar_url: "https://scholar.google.com/citations?user=-WzGnO8AAAAJ&hl=en"
 
 # Build settings
 markdown: kramdown
