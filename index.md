@@ -18,15 +18,15 @@ I did my bachelor's and master's in Computer Science at Johns Hopkins. I have re
     * Worked with [Joshua Vogelstein](https://jovo.me/)
     
 # Class Projects
-* [Chirp](https://github.com/zdavidli/chirp)
-    * A Twitter bot that reads tweets in the voice of the tweeter. Voice model is trained using one-shot learning.
-    * 601.421 Object-Oriented Software Engineering semester-long project.
-* [Neural Style Removal](https://github.com/zdavidli/neural-style-removal)
-    * Can we improve object detection in abstract artwork by first applying neural style transfer to make artwork more realistic?
-    * 601.461 Computer Vision Final Project. [Report](assets/object-detection-artwork.pdf)
 * [RNN Stock Prediction](https://github.com/zdavidli/rnn-stock-prediction)
     * Can we beat the market by using an RNN trained on intraday stock data to predict stock market trends?
     * 601.482 Deep Learning Final Project. [Report](assets/rnn-stock-prediction.pdf)
+ * [Neural Style Removal](https://github.com/zdavidli/neural-style-removal)
+    * Can we improve object detection in abstract artwork by first applying neural style transfer to make artwork more realistic?
+    * 601.461 Computer Vision Final Project. [Report](assets/object-detection-artwork.pdf)
+* [Chirp](https://github.com/zdavidli/chirp)
+    * A Twitter bot that reads tweets in the voice of the tweeter. Voice model is trained using one-shot learning.
+    * 601.421 Object-Oriented Software Engineering semester-long project.
 
 # Teaching
 
