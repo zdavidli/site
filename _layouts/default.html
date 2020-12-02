@@ -21,7 +21,9 @@
         {% endif %}
 
         <p>
-          <a href="{{ site.curriculum_vitae_url }}">CV</a><br>
+          {% if site.curriculum_vitae_url %}
+            <a href="{{ site.curriculum_vitae_url | relative_url }}">CV</a><br>
+          {% endif %}
           <a href="{{ site.google_scholar_url }}">Google Scholar</a><br>
           <a href="{{ site.linkedin_url }}">LinkedIn</a>
         </p>
