@@ -16,7 +16,7 @@ Starting item: Bow
 
 ### Stage 2-2 board
 
-<img src="/assets/tft/20200215/g1_22.png" alt="2-2 board" width="500"/>
+<img src="/assets/tft/20200215/g1_22.png" alt="2-2 board" width="100%"/>
 
 **In-game thoughts:** I have been playing bow start into Kayle most of the time, so I was angling that way. 
 I leveled at 2-1 because I can slam Sunfire Cape and go for a 2-cost chosen since I haven't seen any chosen yet.
@@ -35,7 +35,7 @@ Lucky Lantern: Belt + Reforger. Getting another belt here feels pretty bad, but 
 
 ### Stage 2-6 board:
 
-<img src="/assets/tft/20200215/g1_26.png" alt="2-6 board" width="500"/>
+<img src="/assets/tft/20200215/g1_26.png" alt="2-6 board" width="100%"/>
 
 **In-game thoughts:**
 Playing 2* units is better than playing 1* units (Fiora + Jarvan > Lulu + Annie), but pick up the Mages anyway.
@@ -56,7 +56,7 @@ Playing Fiora + Jarvan is better.
 ## Stage 3
 ### Stage 3-1 board:
 
-<img src="/assets/tft/20200215/g1_31.png" alt="3-1 board" width="500"/>
+<img src="/assets/tft/20200215/g1_31.png" alt="3-1 board" width="100%"/>
 
 Items: Sunfire on board. Free components: 3x Belt, Bow, Sword.
 
@@ -75,7 +75,7 @@ Also, commit to Elderwood at this point.
 
 ### Stage 3-4 board:
 
-<img src="/assets/tft/20200215/g1_34.png" alt="3-4 board" width="500"/>
+<img src="/assets/tft/20200215/g1_34.png" alt="3-4 board" width="100%"/>
 
 **In-game thoughts:**
 Sold Annie for Nunu (6 Elder) and put the Warmog's on Maokai as I will probably sell him at 4-1. Brawler chosen is not good enough and I will want to roll for 2* Veigar.
@@ -89,7 +89,7 @@ so I can go for 3* units.
 
 ### Stage 4-5 board:
 
-<img src="/assets/tft/20200215/g1_45.png" alt="4-5 board" width="500"/>
+<img src="/assets/tft/20200215/g1_45.png" alt="4-5 board" width="100%"/>
 
 **In-game thoughts:** Went for tear off carousel as I don't have any of that component for Veigar. 
 At 4-1, I rolled to find a new chosen and 2* my board. I found an Elderwood Nunu, so I am potentially looking for 9 Elderwood.
@@ -112,7 +112,7 @@ DClaw Nunu is fine. Make Zz'rot to keep streak. Play for top 4 and don't go for 
 
 ### Stage 5-7 board:
 
-<img src="/assets/tft/20200215/g1_57.png" alt="5-1 board" width="500"/>
+<img src="/assets/tft/20200215/g1_57.png" alt="5-1 board" width="100%"/>
 
 **In-game thoughts:**
 5-1 rolldown was pretty meh, bench was full but I kept seeing Nunus in shop.
