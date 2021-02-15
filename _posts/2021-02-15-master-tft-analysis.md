@@ -1,10 +1,10 @@
 ---
 layout: post
-title: TFT Analysis 2/15
+title: Game Analysis 02/15
 author: David
 categories: [tft]
 tags: patch-11-3
-excerpt: 2021/02/15 TFT analysis at 100LP Master
+excerpt: Elderwood Mage at 100LP Master
 ---
 
 Context: 100LP Master in NA. [lolchess](https://lolchess.gg/profile/na/barneson4)
